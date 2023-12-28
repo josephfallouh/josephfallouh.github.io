@@ -1,0 +1,101 @@
+body {
+    background-color: #7e57c2; /* Purple background */
+    color: white; /* White text */
+    font-family: Arial, sans-serif; /* Font style */
+  }
+  
+  .navbar {
+    background-color: #5e35b1; /* Darker shade of purple for navbar */
+  }
+  
+  .hero-section {
+    padding: 100px 0;
+    background: linear-gradient(300deg, #b388ff, #7c4dff, #651fff); /* Purple gradient background */
+    text-align: center;
+  }
+
+  .gradient-background {
+    min-height: 600px; /* Adjust this value as needed */
+    padding: 25px 0; /* Existing padding, adjust as needed */
+  }
+  
+  .text-section {
+    padding: 50px 0;
+  }
+  
+  /* Styles for individual sections */
+  #about, #experience, #projects, #skills, #certifications {
+    background-color: rgba(0, 0, 0, 0.2); /* Slightly transparent background for readability */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 120px; /* Adjust this value as needed */
+    margin-right: 120px; /* Adjust this value as needed */
+
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .hero-section, .text-section {
+      padding: 50px 20px;
+    }
+  }
+
+  /* Social Media Button Styles */
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px; /* Reduced padding */
+  }
+  
+  .square-button {
+    border: 1px solid #ffffff; /* White border */
+    background-color: #55595c; /* Default background color */
+    color: #eceeef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px; /* Increased font size for larger icons */
+    text-decoration: none;
+    margin: 10px; /* Space between buttons */
+    padding: 50px 200px; /* Increase horizontal padding */
+    
+  }
+  
+  .square-button.twitter {
+    background-color: #1DA1F2; /* Twitter color */
+  }
+  
+  .square-button.instagram {
+    background-image: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D); /* Instagram gradient */
+  }
+  
+  .square-button.linkedin {
+    background-color: #0077B5; /* LinkedIn color */
+  }
+  
+  .square-button:hover {
+    opacity: 0.9; /* Hover effect */
+  }
+  
+  .social-title {
+    font-size: 24px; /* Larger font size */
+    font-weight: bold; /* Bold font */
+    color: #ffffff; /* White color */
+    text-shadow: 1px 1px 2px #000000; /* Text shadow for depth */
+  }
+  
+  @media (max-width: 768px) {
+    .square-button {
+      padding: 20px 40px; /* Smaller padding for small screens */
+      font-size: 24px; /* Slightly smaller font size for icons */
+    }
+  }
+
+  #title {
+    color: yellow;
+  }
+  
